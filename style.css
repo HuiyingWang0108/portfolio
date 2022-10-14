@@ -85,8 +85,8 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: #111;
-    background: url(images/huiying.png);
+    /* background: #4063c2; */
+    background: url(images/jojov4.png);
     background-size: cover;
     background-position: right;
     display: flex;
@@ -114,10 +114,10 @@ section {
 }
 
 .btn {
+    font-size: 16px;
     position: relative;
-    background: #4063c2;
     display: inline-block;
-    color: #000;
+    color: #4063c2;
     margin-top: 20px;
     padding: 10px 30px;
     font-size: 18px;
@@ -626,6 +626,9 @@ footer.copyright a {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+    }
+    #home a:hover {
+        transform: scale(1.25);
     }
 
 }
