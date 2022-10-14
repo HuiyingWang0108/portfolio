@@ -276,7 +276,7 @@ img{
 
 /* Creating Contact Details Layout in CSS */
 .contact{
-    background:#111;
+    background:white;
 }
 
 .formBx{
@@ -297,30 +297,21 @@ img{
 .formBx form textarea{
     margin-bottom: 20px;
     padding:15px;
-    font-size: 16px;
+    font-size: 12px;
     background:transparent;
-    border:none;
-    outline:none;
-    background:#161616;
+    width: 80%;
+    background:white;
     resize:vertical;
-    color:#fff;
-}
-.formBx form input:focus,
-.formBx form textarea:focus{
-    transition:0.5s;
-    -webkit-transition:0.5s;
-    -moz-transition:0.5s;
-    -ms-transition:0.5s;
-    -o-transition:0.5s;
-    border-bottom:1px solid #009e66;
 }
 .formBx form input::placeholder,
 .formBx form textarea::placeholder{
     color:#999;
 }
 .formBx form input[type="submit"]{
-    background:#009e66;
-    max-width:250px;
+    background:white;
+    color: rgb(182, 80, 80);
+    /* max-width:250px; */
+    width: 80%;
     cursor:pointer;
     font-weight: 600;
     letter-spacing: 2px;
@@ -329,6 +320,9 @@ img{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+}
+input {
+    caret-color : rgb(182, 80, 80);
 }
 .contactInfo{
     min-width:40%;
