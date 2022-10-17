@@ -20,31 +20,71 @@
         <ul class="menu">
             <li><a class="link_1" href="#home" onclick="toggleMenu();">Home</a></li>
             <li><a class="link_1" href="#about" onclick="toggleMenu();">About</a></li>
-            <li><a class="link_1" href="#services" onclick="toggleMenu();">Services</a></li>
+            <!-- <li><a class="link_1" href="#services" onclick="toggleMenu();">Services</a></li>
             <li><a class="link_1" href="#work" onclick="toggleMenu();">Work</a></li>
-            <li><a class="link_1" href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a class="link_1" href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
             <li><a class="link_1" href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </header>
 
     <!-- Creating Banner Layout in HTML -->
     <section class="banner" id="home">
-        <div class="textBx">
-            <h2>Hello, I'm<br> <span>Huiying Wang</span></h2>
-            <h3 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#4063c2"></span></h5>
-                <!-- typed.js -->
-                <script src="/assets/typed.js/typed.min.js"></script>
-                <script type="text/javascript">
-                    var typed = new Typed('.typing', {
-                        strings: ["backend Developer", "quick Learner", "good Teamworker"],
-                        loop: true,
-                        typeSpeed: 80,
-                        backSpeed: 40
-                    });
-                </script>
-                <a href="#about" style="font-weight: 300; color:#fff; background-color: #4063c2;" class="btn">About
-                    Me</a>
+        <div class="container">
+            <div class="row" style="padding-top: 15px;">
+                <div class="col-sm-4">
+                    <div class="textBx">
+                        <h2>Hello, I'm<br> <span>Huiying Wang</span></h2>
+                        <h3 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#4063c2"></span>
+                            </h5>
+                            <!-- typed.js -->
+                            <script src="/assets/typed.js/typed.min.js"></script>
+                            <script type="text/javascript">
+                                var typed = new Typed('.typing', {
+                                    strings: ["backend Developer", "quick Learner", "good Teamworker"],
+                                    loop: true,
+                                    typeSpeed: 80,
+                                    backSpeed: 40
+                                });
+                            </script>
+                            <a href="#about" style="font-weight: 300; color:#fff; background-color: #4063c2;"
+                                class="btn">About
+                                Me</a>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <ul style="color: white;">
+                        <li style="padding: 5px">3 years of experience as a Full Stack Java Developer in Analysis,
+                            Design, Development,
+                            Maintenance and Implementing Web-Based enterprise applications using Spring Framework,
+                            Java/J2EE technologies.</li>
+                        <li style="padding: 5px">
+                            Proficient in Core JAVA with strong understanding and working knowledge of OOP and concepts
+                            like, Multi-threading, Collections Framework, Exception handling, I/O system & JDBC.
+                        </li>
+                        <li style="padding: 5px">
+                            Having the basic knowledge of computer science like computer system, computer networking,
+                            data structures and algorithms.
+                        </li>
+                        <li style="padding: 5px">
+                            Experience with different modules of Spring framework like Spring IoC/DI, Spring DAO, Spring
+                            MVC, Spring AOP, Spring ORM, Spring Security, OAuth 2.0, Spring JDBC Template.</li>
+                        <li style="padding: 5px">
+                            Created unit test cases using JUnit within Test Driven Development (TDD) approach like
+                            Mockito,
+                            PowerMockito, Jasmine, Junit4 and Junit5.</li>
+                        <li style="padding: 5px">
+                            Proficient in Amazon Web Services (AWS) services like EC2, Lambda, SQS, S3, IAM, Cloud
+                            Watch,
+                            Route53, Cloudfront, DynamoDB and RDS.</li>
+                        <li style="padding: 5px">
+                            Having the basic knowledge of computer science like computer system, computer networking,
+                            data structures and algorithms.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <!-- Creating About Me Layout in HTML -->
@@ -62,30 +102,13 @@
                     <p>
                         I was born in a small town in China. I came to the USA since 2017. I have two boys.
                         During my leisure time, I enjoy being a photographer, a gardener, fishing man, or a hairdresser.
-                        I love to play tennis, bowling, ping pong, and any other various ball games. I also love yogo, swimming and painting.
+                        I love to play tennis, bowling, ping pong, and any other various ball games. I also love yogo,
+                        swimming and painting.
                         I started to pursue my career all the time but for some reson I couldn't work before 2021.
                         Now I am ready to restart my career as a soft engineer.
                         Welcome to contact me if you are interested in learning more or reaching out.
                     </p>
-                    <!-- <ul>
-                        <li style="padding: 5px">3 years of experience as a Full Stack Java Developer in Analysis,
-                            Design, Development,
-                            Maintenance and Implementing Web-Based enterprise applications using Spring Framework,
-                            Java/J2EE technologies.</li>
-                        <li style="padding: 5px">
-                            Proficient in Core JAVA with strong understanding and working knowledge of OOP and concepts
-                            like, Multi-threading, Collections Framework, Exception handling, I/O system & JDBC.
-                        </li>
-                        <li style="padding: 5px">
-                            Having the basic knowledge of computer science like computer system, computer networking,
-                            data structures and algorithms.
-                        </li>
-                        <li style="padding: 5px">
-                            Experience with different modules of Spring framework like Spring IoC/DI, Spring DAO, Spring
-                            MVC, Spring AOP, Spring ORM, Spring Security, OAuth 2.0, Spring JDBC Template.</li>
-                        <li style="padding: 5px"></li>
-                        <li style="padding: 5px"></li>
-                    </ul> -->
+
                     <div class="heading bottom">
                         <a href="images/HuiyingWang.pdf" class="btn round">REVIEW Resume</a>
                         <div class="bt">

@@ -86,7 +86,8 @@ section {
     position: relative;
     min-height: 100vh;
     /* background: #4063c2; */
-    background: url(images/jojov4.png);
+    /* background: url(images/jojov4.png); */
+    background-color: #000;
     background-size: cover;
     background-position: right;
     display: flex;
