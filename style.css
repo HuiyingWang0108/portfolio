@@ -176,8 +176,9 @@ section {
 }
 
 .btn.round {
-    border-radius: 50px;
-    ;
+    background-color: #4063c2;
+    color: white;
+    border-radius: 50px;;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
