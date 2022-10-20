@@ -335,12 +335,12 @@ img {
 }
 
 .formBx {
-    min-width: 60%;
+    /* min-width: 60%; */
 }
 
 .formBx form {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .formBx form h3,
