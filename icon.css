@@ -1,0 +1,24 @@
+:root {
+    --my-icon-grey:rgb(148, 150, 163);
+    --my-icon-dark:rgb(51, 52, 58);
+}
+.fa {
+    font-size: 180% !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    color: var(--my-icon-grey);
+}
+
+.fa-github {
+    color:  var(--my-icon-grey);;
+}
+
+.myIcon li {
+    display: block;
+    margin: 30px;
+}
