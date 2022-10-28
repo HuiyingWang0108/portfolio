@@ -15,7 +15,7 @@ body {
 
     /* cores de fundo */
     --bg-grey-light: #f0f1f4;
-    --bg-white: #ffffff;
+    --bg-white: white;
     --bg-blue-dark: #142136;
     --bg-indigo: #3b3b3c;
 
@@ -28,7 +28,7 @@ body {
     --text-white: #e6e6e6;
     --text-dark: #b4abab !important;
     --bg-grey-light: #142136;
-    --bg-white: #22395d;
+    --bg-white: #cfd9e2;
     --bg-blue-dark: #142136;
     --bg-indigo: #142136;
     /* background-color: var(--bg-grey-light) !important; */
@@ -85,7 +85,7 @@ header ul li a {
 
 header ul li a:hover {
     transform: scale(1.25);
-    border-bottom: 2px solid var(--text-white);
+    border-bottom: 2px solid var(--text-dark);
 }
 
 /* Creating Stiky Header Menu Nav Bar */
@@ -317,7 +317,7 @@ footer.copyright a {
     color: var(--text-dark);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
 
     header,
     header.sticky {
@@ -330,29 +330,26 @@ footer.copyright a {
         z-index: 1;
     }
 
-    header .menu {
-        position: fixed;
-        /* background: #fff; */
-        display: block;
-        top: 75px;
-        left: -100%;
-        padding: 100px 50px;
-        width: 100%;
-        height: 100vh;
-        border-top: 1px solid var(--text-white);
-        text-align: center;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
+    header #toggleBtn {
+        display: none;
     }
 
+    header .menu.active {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        padding: 100px 50px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: var(--bg-white);
+    }
 
     .menu a {
         font-size: 20px;
         font-weight: 400;
-        /* color: #111; */
+        color: #111;
         margin: 10px 0;
     }
 
@@ -442,8 +439,6 @@ footer.copyright a {
         flex-direction: column;
     }
 
-    #home a:hover {
-        transform: scale(1.25);
-    }
+
 
 }
