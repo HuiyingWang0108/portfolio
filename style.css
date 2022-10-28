@@ -119,6 +119,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center; */
+    background-color: var(--bg-grey-light);
 }
 
 .banner h2 {
