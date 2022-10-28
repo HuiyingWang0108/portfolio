@@ -1,8 +1,6 @@
 @import url('https://css.gg/edit-contrast.css');
-:root {
-    --my-icon-grey:rgb(148, 150, 163);
-    --my-icon-dark:rgb(51, 52, 58);
-}
+@import url(./style.css);
+
 .fa {
     font-size: 180% !important;
 }
@@ -12,14 +10,18 @@
 }
 
 .fa-linkedin {
-    color: var(--my-icon-grey);
+    color: var(--text-dark);
 }
 
 .fa-github {
-    color:  var(--my-icon-grey);;
+    color:  var(--text-dark);;
 }
 
 .myIcon li {
     display: block;
     margin: 30px;
+}
+#toggleBtn {
+    margin-top: 2%;
+    color: var(--text-dark);
 }
