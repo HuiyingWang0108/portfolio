@@ -9,18 +9,28 @@
     opacity: 0.7;
 }
 
+.fa-twitter {
+    color: var(--text-dark);
+}
+
+.fa-facebook {
+    color: var(--text-dark);
+}
+
 .fa-linkedin {
     color: var(--text-dark);
 }
 
 .fa-github {
-    color:  var(--text-dark);;
+    color: var(--text-dark);
+    ;
 }
 
 .myIcon li {
     display: block;
     margin: 30px;
 }
+
 #toggleBtn {
     margin-top: 2%;
     color: var(--text-dark);

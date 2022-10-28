@@ -87,7 +87,9 @@ header ul li a:hover {
     transform: scale(1.25);
     border-bottom: 2px solid var(--text-dark);
 }
-
+#toggleBtn {
+    margin-left: 25px;
+}
 /* Creating Stiky Header Menu Nav Bar */
 header.sticky {
     /* background: #fff; */
@@ -109,21 +111,20 @@ section {
 }
 
 .banner {
-    /* position: relative;
+    position: relative;
     min-height: 100vh;
-    background: #4063c2;
-    background: url(images/jojov4.png);
-    background-color: var(--bg-blue-dark);
     background-size: cover;
     background-position: right;
     display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
+    align-items: center;
     background-color: var(--bg-grey-light);
 }
 
 .banner h2 {
-    font-size: 2.5em;
+    font-size: 4.5em;
+    font-family: 'Times New Roman', Times, serif;
     color: var(--text-dark);
     font-weight: 300;
     line-height: 1.5em;
