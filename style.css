@@ -29,7 +29,7 @@ body {
     --text-dark: #b4abab !important;
     --bg-grey-light: #142136;
     --bg-white: #cfd9e2;
-    --bg-blue-dark: #142136;
+    --bg-blue-dark: #b4abab;
     --bg-indigo: #142136;
     /* background-color: var(--bg-grey-light) !important; */
 }
@@ -87,9 +87,87 @@ header ul li a:hover {
     transform: scale(1.25);
     border-bottom: 2px solid var(--text-dark);
 }
+
 #toggleBtn {
     margin-left: 25px;
 }
+
+.btn {
+    /* background-color: var(--bg-blue-dark); */
+    color: var(--text-dark) !important;
+    border: 2px solid var(--text-dark);
+    width: 40%;
+    height: 45px;
+    /* cursor: pointer; */
+}
+
+#btnImg {
+    position: absolute;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .35s ease-Out;
+    
+}
+.aboutBtn {
+    display: inline-flex;
+    height: 50px;
+    width: 180px;
+    border: 2px solid var(--text-dark);
+    margin: 20px 20px 20px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .aboutBtn a {
+    color: var(--text-dark);
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #myBtn {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #myBtn a {
+    position: relative;
+    left: 0;
+    transition: all .35s ease-Out;
+  }
+  
+  #dub-arrow {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-grey-light);
+    left: -200px;
+    position: absolute;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #myBtn img {
+    width: 20px;
+    height: auto;
+  }
+  
+  #myBtn:hover #dub-arrow {
+    left: 0;
+  }
+  
+  #myBtn:hover a {
+    left: 150px;
+  }
+
 /* Creating Stiky Header Menu Nav Bar */
 header.sticky {
     /* background: #fff; */
