@@ -18,6 +18,7 @@ body {
     --bg-white: white;
     --bg-blue-dark: #142136;
     --bg-indigo: #3b3b3c;
+    --bg-btn: rgb(98, 163, 206);
 
     font-family: "Inter", sans-serif;
     line-height: 1.7;
@@ -31,6 +32,7 @@ body {
     --bg-white: #cfd9e2;
     --bg-blue-dark: #b4abab;
     --bg-indigo: #142136;
+    --bg-btn: rgb(225, 113, 153);
     /* background-color: var(--bg-grey-light) !important; */
 }
 
@@ -116,25 +118,27 @@ header ul li a:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-  .aboutBtn a {
+}
+
+.aboutBtn a {
     color: var(--text-dark);
     text-decoration: none;
     letter-spacing: 1px;
-  }
-  #myBtn {
+}
+
+#myBtn {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-  }
-  
-  #myBtn a {
+}
+
+#myBtn a {
     /* position: relative;
     left: 0;
     transition: all .35s ease-Out; */
-  }
-  
-  #dub-arrow {
+}
+
+#dub-arrow {
     width: 100%;
     height: 100%;
     background: var(--bg-grey-light);
@@ -146,23 +150,26 @@ header ul li a:hover {
     justify-content: center;
     transition: all .35s ease-Out;
     bottom: 0;
-  }
-  
-  #myBtn img {
+}
+
+#myBtn img {
     width: 20px;
     height: auto;
-  }
-  
-  #myBtn:hover #dub-arrow {
+}
+
+#myBtn:hover #dub-arrow {
     left: 0;
-  }
-  
-  #myBtn:hover a {
+}
+
+#dub-arrow:hover {
     /* left: 150px; */
-  }
-  #groupBtn:hover .icon-arrow {
+    background-color: var(--bg-btn);
+}
+
+#groupBtn:hover .icon-arrow {
     margin-left: -6%;
-  }
+  
+}
 
 /* Creating Stiky Header Menu Nav Bar */
 header.sticky {
@@ -420,9 +427,11 @@ footer.copyright a {
         height: 100vh;
         background: var(--bg-white);
     }
-section.active {
-    display: none;
-}
+
+    section.active {
+        display: none;
+    }
+
     .menu a {
         font-size: 20px;
         font-weight: 400;
@@ -517,9 +526,11 @@ section.active {
     }
 
 }
+
 #groupBtn {
     display: inline-flex;
 }
+
 @media screen and (max-width: 380px) {
     #groupBtn {
         /* transform: scale(0.6); */
