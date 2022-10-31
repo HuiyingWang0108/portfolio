@@ -6,7 +6,8 @@
 }
 
 .fa:hover {
-    opacity: 0.7;
+    color: var(--text-dark);
+    opacity: 0.5;
 }
 
 .fa-twitter {
@@ -23,7 +24,6 @@
 
 .fa-github {
     color: var(--text-dark);
-    ;
 }
 
 .myIcon li {
@@ -35,3 +35,10 @@
     margin-top: 2%;
     color: var(--text-dark);
 }
+.icon-arrow {
+    margin-top: 32px;
+    fill: var(--text-dark);
+    transform: scale(1.8);
+    margin-left: -8%;
+}
+

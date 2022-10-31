@@ -62,6 +62,7 @@ header .logo {
 
 header .logo:hover {
     transform: scale(1.25);
+    color: var(--text-dark);
 }
 
 
@@ -85,6 +86,7 @@ header ul li a {
 
 header ul li a:hover {
     transform: scale(1.25);
+    color: var(--text-dark);
     border-bottom: 2px solid var(--text-dark);
 }
 
@@ -157,6 +159,9 @@ header ul li a:hover {
   
   #myBtn:hover a {
     /* left: 150px; */
+  }
+  #groupBtn:hover .icon-arrow {
+    margin-left: -6%;
   }
 
 /* Creating Stiky Header Menu Nav Bar */
@@ -509,6 +514,12 @@ footer.copyright a {
         flex-direction: column;
     }
 
-
-
+}
+#groupBtn {
+    display: inline-flex;
+}
+@media screen and (max-width: 380px) {
+    #groupBtn {
+        /* transform: scale(0.6); */
+    }
 }
