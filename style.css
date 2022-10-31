@@ -18,7 +18,7 @@ body {
     --bg-white: white;
     --bg-blue-dark: #142136;
     --bg-indigo: #3b3b3c;
-    --bg-btn: rgb(98, 163, 206);
+    --bg-btn: rgb(190, 229, 181);
 
     font-family: "Inter", sans-serif;
     line-height: 1.7;
@@ -32,7 +32,7 @@ body {
     --bg-white: #cfd9e2;
     --bg-blue-dark: #b4abab;
     --bg-indigo: #142136;
-    --bg-btn: rgb(225, 113, 153);
+    --bg-btn: rgb(117, 149, 159);
     /* background-color: var(--bg-grey-light) !important; */
 }
 
@@ -168,7 +168,7 @@ header ul li a:hover {
 
 #groupBtn:hover .icon-arrow {
     margin-left: -6%;
-  
+
 }
 
 /* Creating Stiky Header Menu Nav Bar */
@@ -518,17 +518,35 @@ footer.copyright a {
         font-weight: 300;
     }
 
-    .heading.bottom {
+    .heading.bottom  {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+    }
+    .workBtn {
+        display: none;
     }
 
 }
 
 #groupBtn {
     display: inline-flex;
+}
+
+.works {
+    /* margin-bottom: -60%; */
+    color: var(--text-dark);
+}
+
+.workBtn {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: var(--text-dark);
+}
+.workBtn:hover {
+    /* transition: scale(1.5); */
 }
 
 @media screen and (max-width: 380px) {

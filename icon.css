@@ -35,10 +35,21 @@
     margin-top: 2%;
     color: var(--text-dark);
 }
+#toggleBtn:hover {
+    opacity: 0.5;
+}
 .icon-arrow {
     margin-top: 32px;
     fill: var(--text-dark);
     transform: scale(1.8);
     margin-left: -8%;
 }
-
+.icon-work {
+    /* transform: scale(1.8); */
+    margin-bottom: -50%;
+    fill: var(--text-dark);
+    transform: scale(1.5);
+}
+.icon-work:hover {
+    margin-bottom: -5%;
+}
