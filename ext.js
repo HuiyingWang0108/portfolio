@@ -10,7 +10,6 @@ function toggleMenu(){
     menu.classList.toggle("active");
     
     var section = document.querySelector("section");
-    menuToggle.classList.toggle("active");
     section.classList.toggle("active");
 }
 

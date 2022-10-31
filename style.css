@@ -548,9 +548,3 @@ footer.copyright a {
 .workBtn:hover {
     /* transition: scale(1.5); */
 }
-
-@media screen and (max-width: 380px) {
-    #groupBtn {
-        /* transform: scale(0.6); */
-    }
-}
