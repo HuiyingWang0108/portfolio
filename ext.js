@@ -8,6 +8,10 @@ function toggleMenu(){
     var menu = document.querySelector(".menu");
     menuToggle.classList.toggle("active");
     menu.classList.toggle("active");
+    
+    var section = document.querySelector("section");
+    menuToggle.classList.toggle("active");
+    section.classList.toggle("active");
 }
 
 const toggle = document.getElementById("toggleBtn");

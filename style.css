@@ -420,7 +420,9 @@ footer.copyright a {
         height: 100vh;
         background: var(--bg-white);
     }
-
+section.active {
+    display: none;
+}
     .menu a {
         font-size: 20px;
         font-weight: 400;
