@@ -11,7 +11,7 @@
 body {
     /* cores de texto */
     --text-white: #ffffff;
-    --text-dark: #142136 !important;
+    --text-dark: #142136;
 
     /* cores de fundo */
     --bg-grey-light: #f0f1f4;
@@ -22,12 +22,12 @@ body {
 
     font-family: "Inter", sans-serif;
     line-height: 1.7;
-    background-color: var(--bg-grey-light) !important;
+    background-color: var(--bg-grey-light) ;
 }
 
 .darkmode {
     --text-white: #e6e6e6;
-    --text-dark: #b4abab !important;
+    --text-dark: #b4abab;
     --bg-grey-light: #142136;
     --bg-white: #cfd9e2;
     --bg-blue-dark: #b4abab;
@@ -98,7 +98,7 @@ header ul li a:hover {
 
 .btn {
     /* background-color: var(--bg-blue-dark); */
-    color: var(--text-dark) !important;
+    color: var(--text-dark);
     border: 2px solid var(--text-dark);
     width: 40%;
     height: 45px;
@@ -173,9 +173,9 @@ header ul li a:hover {
 
 /* Creating Stiky Header Menu Nav Bar */
 header.sticky {
-    background: rgb(203, 122, 122);
+    background: var(--bg-grey-light);
     padding: 20px 100px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px var(--bg-white);
 }
 
 header.sticky .logo {
@@ -196,7 +196,9 @@ section {
     min-height: 100vh;
     background-size: cover;
     background-position: right;
-    display: flex;
+    /* display: block; the reason sticky header doesn't work on this section*/
+    margin-top: 10%;
+
     justify-content: space-between;
     align-items: center;
     align-items: center;
