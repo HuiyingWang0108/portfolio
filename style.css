@@ -18,7 +18,8 @@ body {
     --bg-white: white;
     --bg-blue-dark: #142136;
     --bg-indigo: #3b3b3c;
-    --bg-btn: rgb(190, 229, 181);
+    --bg-btn: rgb(237, 241, 236);
+    --bg-input:rgb(180, 183, 184);
 
     font-family: "Inter", sans-serif;
     line-height: 1.7;
@@ -33,6 +34,7 @@ body {
     --bg-blue-dark: #b4abab;
     --bg-indigo: #142136;
     --bg-btn: rgb(117, 149, 159);
+    --bg-input:rgb(119, 131, 136);
     /* background-color: var(--bg-grey-light) !important; */
 }
 
@@ -325,13 +327,13 @@ img {
     font-size: 12px;
     background: transparent;
     width: 80%;
-    background: var(--bg-white);
+    background: var(--bg-input);
     resize: vertical;
 }
 
 .formBx form input::placeholder,
 .formBx form textarea::placeholder {
-    color: var(--bg-white);
+    color: var(--text-dark);
 }
 
 .formBx form input[type="submit"] {
@@ -371,7 +373,7 @@ img {
 }
 
 .contactInfoBx .box .text {
-    color: #999;
+    color: var(--text-dark);
     margin-left: 20px;
     font-size: 16px;
     flex-direction: column;
@@ -380,13 +382,13 @@ img {
 
 .contactInfoBx .box .text h3 {
     font-weight: 500;
-    color: #4063c2;
+    color: var(--text-dark);
     margin-bottom: 0;
 }
 
 .contactInfoBx .box .text p {
     font-weight: 300;
-    color: #999;
+    color: var(--text-dark);
 }
 
 footer.copyright {
@@ -437,7 +439,7 @@ footer.copyright a {
     .menu a {
         font-size: 20px;
         font-weight: 400;
-        color: #111;
+        color: var(--text-dark);
         margin: 10px 0;
     }
 
