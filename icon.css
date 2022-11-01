@@ -46,10 +46,10 @@
 }
 .icon-work {
     /* transform: scale(1.8); */
-    margin-bottom: -50%;
+    margin-bottom: -3%;
     fill: var(--text-dark);
     transform: scale(1.5);
 }
 .icon-work:hover {
-    margin-bottom: -5%;
+    margin-bottom: 0%;
 }
