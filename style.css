@@ -542,11 +542,13 @@ footer.copyright a {
 }
 
 .workBtn {
-    /* position: absolute;
-    bottom: 12%; */
+    position: absolute;
     text-decoration: none;
     /* color: var(--text-dark); */
+    left: 50%;
+    bottom: 18%;
+    /* transition: opacity .35s ease .7s; */
 }
 .workBtn:hover {
-    /* transition: scale(1.5); */
+    bottom: 21%;
 }
