@@ -209,7 +209,8 @@ section {
 }
 
 .banner h2 {
-    font-size: 4.5em;
+    /* font-size: 4.5em; */
+    font-size: 6vw;
     font-family: 'Times New Roman', Times, serif;
     color: var(--text-dark);
     font-weight: 300;
@@ -217,14 +218,16 @@ section {
 }
 
 .banner h2 span {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    font-size: 4vw;
     font-weight: 300;
     color: var(--text-dark);
 }
 
 .banner h3 {
     color: var(--text-dark);
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+    font-size: 2vw;
     font-weight: 500;
 }
 
@@ -262,7 +265,8 @@ section {
 }
 
 .heading h2 {
-    font-size: 3em;
+    /* font-size: 3em; */
+    font-size: 2vw;
     color: var(--text-dark)
 }
 
