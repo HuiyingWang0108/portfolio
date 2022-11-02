@@ -166,6 +166,7 @@ header ul li a:hover {
 #dub-arrow:hover {
     /* left: 150px; */
     background-color: var(--bg-btn);
+    background: linear-gradient(to right, var(--text-dark),var(--bg-btn));
 }
 
 #groupBtn:hover .icon-arrow {
