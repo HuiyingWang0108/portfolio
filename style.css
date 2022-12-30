@@ -559,3 +559,6 @@ footer.copyright a {
 .workBtn:hover {
     bottom: 21%;
 }
+.contact h3 {
+    color: var(--text-dark);
+}
