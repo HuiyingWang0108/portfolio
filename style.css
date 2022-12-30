@@ -536,6 +536,7 @@ footer.copyright a {
     .workBtn {
         display: none;
     }
+    
 
 }
 
@@ -560,5 +561,14 @@ footer.copyright a {
     bottom: 21%;
 }
 .contact h3 {
+    color: var(--text-dark);
+}
+.line-button.dark.new {
+    background-color: var(--bg-grey-light);
+}
+.div-block-30.about {
+    background-color: var(--bg-grey-light);
+}
+.button-text.about {
     color: var(--text-dark);
 }
