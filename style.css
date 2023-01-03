@@ -95,7 +95,7 @@ header ul li a:hover {
 }
 
 #toggleBtn {
-    margin-left: 46%;
+    margin-left: 25px;
 }
 
 .btn {
@@ -423,6 +423,7 @@ footer.copyright a {
 
     header #toggleBtn {
         /* display: block; */
+        margin-left: 46%;
     }
 
     header .menu.active {
