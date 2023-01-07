@@ -13,6 +13,7 @@
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./icon.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 </head>
@@ -443,10 +444,10 @@
                 <div class="col-sm-6 formBx">
                     <form>
                         <h3>Contact Me</h3>
-                        <input type="text" placeholder="Full Name" name="">
-                        <input type="email" placeholder="Email" name="">
-                        <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send Message" name="">
+                        <input type="text" id="yourName" placeholder="Full Name" name="">
+                        <input type="email" id="yourEmail" placeholder="Email" name="">
+                        <textarea name="" rows="6" id="yourMessage" placeholder="Your Message"></textarea>
+                        <input id="yourSubmit" type="submit" value="Send Message" name="" onclick="sendEmail()">
                     </form>
                 </div>
                 <div class="col-sm-6">
@@ -494,6 +495,8 @@
         <p>&copy; 2022, made with ❤ by <br><a href="#">Huiying Wang</p>
     </footer>
     <script src="ext.js" language="javascript"></script>
+    <script src="sendEmail.js" language="javascript"></script>
+
 </body>
 
 </html>
