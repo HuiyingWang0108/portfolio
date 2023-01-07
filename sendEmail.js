@@ -16,7 +16,7 @@ function sendEmail() {
         clearThis(document.getElementById("yourEmail")),
         clearThis(document.getElementById("yourMessage")),
         document.getElementById("yourSubmit").value = "Successful sent",
-        document.getElementById("yourSubmit").style.color = "rgb(155, 102, 102)"
+        document.getElementById("yourSubmit").style.color = "rgb(139, 0, 0)"
     );
 }
 function clearThis(target) {
