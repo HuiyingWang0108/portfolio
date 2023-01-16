@@ -9998,7 +9998,7 @@ blockquote {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     -ms-grid-rows: auto 0px auto;
-    grid-template-areas: "Area Area-2 Area-3""Area-4 Area-5 Area-6";
+    grid-template-areas: "Area Area-2 Area-3" "Area-4 Area-5 Area-6";
     -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
     grid-template-columns: 1fr 1fr 1fr
 }
@@ -16390,4 +16390,8 @@ blockquote {
     font-weight: 400;
     font-style: italic;
     font-display: swap;
+}
+
+#map {
+    height: 100%;
 }

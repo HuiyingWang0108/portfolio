@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./icon.css">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- google map -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./map.js"></script>
 </head>
 
 </head>
@@ -112,24 +115,12 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row" style="padding-top: 85px;">
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <img src="images/jojo.jpeg" class="rounded float-start" alt="...">
                 </div>
                 <!-- <div class="col-sm-2"></div> -->
-                <div class="col-sm-6">
-                    <div class="heading">
-                        <h2 style="padding-top: 15px;">Hey, it's Huiying. Glad to meet you.</h2>
-                    </div>
-                    <p style="text-indent: 30px;">
-                        I was born in a small town in China. I came to the USA since 2017. I have two boys.
-                        During my leisure time, I enjoy being a photographer, a gardener, skiing, or a hairdresser.
-                        I love to play tennis, bowling, ping pong, and any other various ball games.
-                        I also love yogo, swimming and painting.
-                        I started to pursue my career all the time but for some reson I couldn't work before 2022.</p>
-                    <p style="text-indent: 30px;">
-                        Now I am ready to restart my career as a soft engineer but without good luck in interview.
-                        I believe that I couldn't failure if I never give it up, keep learning!
-                        Welcome to contact me if you are interested in learning more or reaching out.</p>
+                <div class="col-sm-8">
+                    <div id="map"></div>
                 </div>
             </div>
 
@@ -496,7 +487,10 @@
     </footer>
     <script src="ext.js" language="javascript"></script>
     <script src="sendEmail.js" language="javascript"></script>
-
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxsCzcAzrIOY435Nsdqqq_uHcKoeWhezU&callback=initMap&v=weekly"
+    defer
+  ></script>
 </body>
 
 </html>
